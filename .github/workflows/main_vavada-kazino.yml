@@ -31,5 +31,5 @@ jobs:
       with:
         app-name: 'vavada-kazino'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_060c32c45ce5467dbdc2e7d7b2b849b7 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_62e9f68910fa4d5dbb456be21e466960 }}
         package: ${{env.DOTNET_ROOT}}/myapp 
